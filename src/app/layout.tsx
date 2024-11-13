@@ -11,8 +11,8 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ROSI | Robotics Open Source Israel",
-  description: "ROSI - Robotics Open Source Israel Is an Open Source project aimed at creating a common infrastructure among all FIRST teams internationally. You can upload presentations, CAD files, code scenes, photographed lectures and more. So that any team can learn from the other teams while sharing its knowledge When the situation the site strives to promote is raising the level of all teams internationally. In all topics, from the establishment of community and media projects, through software and code to Manufacturing and engineering.",
+  title: "ROSI | Robotics Open Source International",
+  description: "ROSI - Robotics Open Source International Is an Open Source project aimed at creating a common infrastructure among all FIRST teams internationally. You can upload presentations, CAD files, code scenes, photographed lectures and more. So that any team can learn from the other teams while sharing its knowledge When the situation the site strives to promote is raising the level of all teams internationally. In all topics, from the establishment of community and media projects, through software and code to Manufacturing and engineering.",
 };
 
 export default function RootLayout({

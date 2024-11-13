@@ -50,7 +50,7 @@ export default function Home() {
             What is ROSI?
           </h1>
           <p className="text-lg text-center">
-            ROSI - Robotics Open Source Israel
+            ROSI - Robotics Open Source International
             Is an Open Source project aimed at creating a common infrastructure among all FIRST teams internationally.
             You can upload presentations, CAD files, code scenes, photographed lectures and more.
             So that any team can learn from the other teams while sharing its knowledge
@@ -64,7 +64,7 @@ export default function Home() {
             What is ROSI?
           </h1>
           <p className="text-lg text-center">
-            ROSI - Robotics Open Source Israel
+            ROSI - Robotics Open Source International
             Is an Open Source project aimed at creating a common infrastructure among all FIRST teams internationally.
             You can upload presentations, CAD files, code scenes, photographed lectures and more.
             So that any team can learn from the other teams while sharing its knowledge

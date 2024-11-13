@@ -50,7 +50,7 @@ export default function Home() {
             מי אנחנו
           </h1>
           <p className="text-lg text-center">
-            ROSI - Robotics Open Source Israel
+            ROSI - Robotics Open Source International
             הוא פרויקט אופן סורס שמטרתו יצירת תשתית משותפת בין כל קבוצות FIRST בארץ.
             לאתר שלנו אפשר להעלות מצגות, קבצי CAD, קטעי קוד, הרצאות מצולמות ועוד.
             כך שכל קבוצה, תוכל ללמוד מהקבוצות האחרות תוך שיתוף הידע שלה
@@ -64,7 +64,7 @@ export default function Home() {
             מי אנחנו
           </h1>
           <p className="text-lg text-center">
-            ROSI - Robotics Open Source Israel
+            ROSI - Robotics Open Source International
             הוא פרויקט אופן סורס שמטרתו יצירת תשתית משותפת בין כל קבוצות FIRST בארץ.
             לאתר שלנו אפשר להעלות מצגות, קבצי CAD, קטעי קוד, הרצאות מצולמות ועוד.
             כך שכל קבוצה, תוכל ללמוד מהקבוצות האחרות תוך שיתוף הידע שלה
