@@ -6,7 +6,7 @@ const Home: React.FC = () => {
 
   return (
     <main>
-      <ArticlePage subject="cad" search="" pageTitle='שרטוט' language='hebrew'/>
+      <ArticlePage subject="cad" search="" pageTitle='סרטוט' language='hebrew'/>
     </main>
   );
 }

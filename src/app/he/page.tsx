@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faBolt, faUsers, faIndustry, faPencil, faWrench, faPlus, faStar, faMicrochip, faBook, faUserCircle, faBell } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faBolt, faUsers, faIndustry, faPencil, faWrench, faPlus, faStar, faMicrochip, faBook, faUserCircle, faBell, faS } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -123,7 +123,7 @@ export default function Home() {
               <h2 className="mb-3 text-2xl font-semibold">
                 <FontAwesomeIcon icon={faPencil} className="mb-1 text-9xl text-red-700" />
                 <br />
-                {" "}שרטוט{" "}
+                {" "}סרטוט{" "}
                 <span className="inline-block transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">
                   -&gt;
                 </span>
@@ -287,7 +287,7 @@ export default function Home() {
               <h2 className="mb-3 text-2xl font-semibold">
                 <FontAwesomeIcon icon={faPencil} className="mb-1 text-9xl text-red-700" />
                 <br />
-                {" "}שרטוט{" "}
+                {" "}סרטוט{" "}
                 <span className="inline-block transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">
                   -&gt;
                 </span>
@@ -359,8 +359,8 @@ export default function Home() {
               </h2>
             </a>
             <a
-              href="/he/favorites"
-              className=""
+              href="/he/directory"
+              className="group rounded-lg px-5 py-4 transition-colors border-gray-500 dark:border-gray-400 m-2 border-4 text-gray-800 dark:text-white bg-white dark:bg-gray-600/30 hover:border-red-700 hover:bg-gray-100 hover:dark:border-red-700 hover:dark:bg-gray-500/15"
             >
               <h2 className="mb-3 text-2xl font-semibold">
                 <FontAwesomeIcon icon={faStar} className="mb-1 text-9xl text-red-700" />
@@ -371,36 +371,32 @@ export default function Home() {
                 </span>
               </h2>
             </a>
-          <a
-            href="/he/contribute"
-            className="group rounded-lg px-5 py-4 transition-colors border-gray-500 dark:border-gray-400 m-2 border-4 text-gray-800 dark:text-white bg-white dark:bg-gray-600/30 hover:border-red-700 hover:bg-gray-100 hover:dark:border-red-700 hover:dark:bg-gray-500/15"
-          >
-            <h2 className="mb-3 text-2xl font-semibold">
-              <FontAwesomeIcon icon={faPlus} className="mr-2" />
-              העלת תוכן{" "}
-              <span className="inline-block transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-            <p className="m-0 max-w-[30ch] text-sm opacity-100">
-              שתפו את הידע שלכם ועזרו לשפר את המשאבים הזמינים לכל הקבוצות.
-            </p>
-          </a>
-          <a
-            href="/he/contact"
-            className="group rounded-lg px-5 py-4 transition-colors border-gray-500 dark:border-gray-400 m-2 border-4 text-gray-800 dark:text-white bg-white dark:bg-gray-600/30 hover:border-red-700 hover:bg-gray-100 hover:dark:border-red-700 hover:dark:bg-gray-500/15"
-          >
-            <h2 className="mb-3 text-2xl font-semibold">
-              <FontAwesomeIcon icon={faBell} className="mr-2" />
-              צור קשר{" "}
-              <span className="inline-block transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-            <p className="m-0 max-w-[30ch] text-sm opacity-100">
-              צרו קשר איתנו למידע נוסף או למתן משוב.
-            </p>
-          </a>
+            <a
+              href="/he/directory"
+              className="group rounded-lg px-5 py-4 transition-colors border-gray-500 dark:border-gray-400 m-2 border-4 text-gray-800 dark:text-white bg-white dark:bg-gray-600/30 hover:border-red-700 hover:bg-gray-100 hover:dark:border-red-700 hover:dark:bg-gray-500/15"
+            >
+              <h2 className="mb-3 text-2xl font-semibold">
+                <FontAwesomeIcon icon={faUserCircle} className="mb-1 text-9xl text-red-700" />
+                <br />
+                {" "}העלת תוכן{" "}
+                <span className="inline-block transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">
+                  -&gt;
+                </span>
+              </h2>
+            </a>
+            <a
+              href="/he/directory"
+              className="group rounded-lg px-5 py-4 transition-colors border-gray-500 dark:border-gray-400 m-2 border-4 text-gray-800 dark:text-white bg-white dark:bg-gray-600/30 hover:border-red-700 hover:bg-gray-100 hover:dark:border-red-700 hover:dark:bg-gray-500/15"
+            >
+              <h2 className="mb-3 text-2xl font-semibold">
+                <FontAwesomeIcon icon={faUserCircle} className="mb-1 text-9xl text-red-700" />
+                <br />
+                {" "}צור קשר{" "}
+                <span className="inline-block transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">
+                  -&gt;
+                </span>
+              </h2>
+            </a>
         </div>
       )}
 
