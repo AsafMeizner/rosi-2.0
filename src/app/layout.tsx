@@ -22,6 +22,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>ROSI | Robotics Open Source International</title>
+        <meta name="description" content={metadata.description || "Default description"} />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={String(metadata.title) ?? ''} />
+        <meta property="og:description" content={metadata.description ?? ''} />
+        <meta property="og:image" content="https://rosi.co.il/_next/image?url=%2Fimages%2Fdark_rosi.png&w=1200&q=75" />
+        <meta property="og:url" content="https://rosi.co.il" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="ROSI" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={String(metadata.title) ?? ''} />
+        <meta name="twitter:description" content={metadata.description ?? ''} />
+        <meta name="twitter:image" content="https://rosi.co.il/_next/image?url=%2Fimages%2Fdark_rosi.png&w=1200&q=75" />
+        <meta name="twitter:site" content="@YourTwitterHandle" /> {/* Replace with your Twitter handle */}
+        <meta name="twitter:creator" content="@YourTwitterHandle" /> {/* Replace with your Twitter handle */}
+      </head>
       <body className={inter.className}>
         <ToastContainer style={{marginTop: "10vh"}}/>
         <Analytics />
