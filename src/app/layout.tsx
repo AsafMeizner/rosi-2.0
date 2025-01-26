@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ROSI | Robotics Open Source International",
-  description: "ROSI - A platform for FIRST teams to share knowledge globally through presentations, CAD files, code, and more, raising team performance worldwide.",
+  description: "ROSI - Robotics Open Source International is A platform for FIRST teams to share knowledge globally through presentations, CAD files, code, and more, raising team performance worldwide.",
 };
 
 export default function RootLayout({
