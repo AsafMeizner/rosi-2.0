@@ -25,6 +25,7 @@ export default function RootLayout({
       <head>
         <title>ROSI | Robotics Open Source International</title>
         <meta name="description" content={metadata.description || "Default description"} />
+        <link rel="icon" href="/favicon.ico" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content={String(metadata.title) ?? ''} />
