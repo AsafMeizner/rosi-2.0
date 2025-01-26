@@ -1,21 +1,24 @@
-"use client"
+"use client";
 
-import ArticlePage from '@/components/articlePage'
+import ArticlePage from '@/components/articlePage';
 
-type Props = {
-    params: {
-        slug: string
-    }
+interface PageProps {
+  params: { slug: string };
 }
 
-const page = ({params}: Props) => {
-
+const Page = ({ params }: PageProps) => {
   console.log(params.slug);
+
   return (
     <main>
-      <ArticlePage subject="" search={params.slug} language='hebrew' pageTitle={decodeURI(params.slug)}/>
+      <ArticlePage
+        subject=""
+        search={params.slug}
+        language="hebrew"
+        pageTitle={decodeURI(params.slug)}
+      />
     </main>
   );
-}
+};
 
-export default page;
+export default Page;

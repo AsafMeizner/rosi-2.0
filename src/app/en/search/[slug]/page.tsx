@@ -1,20 +1,22 @@
-"use client"
+"use client";
 
-import ArticlePage from '@/components/articlePage'; 
+import ArticlePage from '@/components/articlePage';
 
-type Props = {
-    params: {
-        slug: string
-    }
-}
+type PageProps = {
+  params: { slug: string };
+};
 
-const page = ({params}: Props) => {
-
+const Page = ({ params }: PageProps) => {
   return (
     <main>
-      <ArticlePage subject="" search={params.slug} pageTitle={decodeURI(params.slug)} language='english'/>
+      <ArticlePage
+        subject=""
+        search={params.slug}
+        pageTitle={decodeURI(params.slug)}
+        language="english"
+      />
     </main>
   );
-}
+};
 
-export default page;
+export default Page;
