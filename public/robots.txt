@@ -2,8 +2,6 @@
 User-agent: *
 Disallow: /admin/
 
-# Host
-Host: https://rosi.co.il
-
 # Sitemaps
 Sitemap: https://rosi.co.il/sitemap.xml
+Sitemap: https://rosi.co.il/sitemap-0.xml
