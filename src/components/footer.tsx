@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
                                     <span className="text-sm">Makers Assemble 5951</span>
                                 </div>
                                 <div className="mt-4 text-center">
-                                    <p className="text-sm">&copy; {new Date().getFullYear()} Robotics Open Source israel - ROSI. All rights reserved.</p>
+                                    <p className="text-sm">&copy; {new Date().getFullYear()} Robotics Open Source International- ROSI. All rights reserved.</p>
                                 </div>
                                 <div className="flex flex-col items-center">
                                     <img 
