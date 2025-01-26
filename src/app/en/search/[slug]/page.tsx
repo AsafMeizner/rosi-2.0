@@ -2,18 +2,22 @@
 
 import ArticlePage from '@/components/articlePage';
 
-type PageProps = {
-  params: { slug: string };
-};
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
 
-const Page = ({ params }: PageProps) => {
+const Page = async ({ params }: PageProps) => {
+  const { slug } = await params;
+
+  console.log(slug);
+
   return (
     <main>
       <ArticlePage
         subject=""
-        search={params.slug}
-        pageTitle={decodeURI(params.slug)}
+        search={slug}
         language="english"
+        pageTitle={decodeURI(slug)}
       />
     </main>
   );
