@@ -126,15 +126,6 @@ const Contact = () => {
 
         <p className="text-center text-sm text-gray-600 dark:text-gray-400">
           Makers Assemble 5951 | {'ma-5951@tichonet.com'} | +972545551994
-          <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`} className="text-red-600 hover:text-red-700">
-            {process.env.NEXT_PUBLIC_EMAIL}
-          </a>
-        </p>
-        <p className="text-center text-sm text-gray-600 dark:text-gray-400">
-          Miscar 1574 | {'contact@miscar1574.org'} | +9720537160906
-          <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`} className="text-red-600 hover:text-red-700">
-            {process.env.NEXT_PUBLIC_EMAIL}
-          </a>
         </p>
       </div>
     </div>
